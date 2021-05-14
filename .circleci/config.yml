@@ -434,7 +434,7 @@ jobs:
       - <<: *install_ghr
       - add_ssh_keys:
           fingerprints:
-            - "97:92:32:5d:d7:96:e1:fa:f3:6b:f3:bd:d6:aa:84:c6"
+            - "99:9b:88:4b:c6:8f:93:02:56:42:85:e0:5e:a9:db:5d"
       - run: echo $FWUP_KEY_BASE64 | base64 --decode --ignore-garbage > $NERVES_FW_PRIV_KEY
       - run:
           name: Sign rpi3 Firmware and create image
